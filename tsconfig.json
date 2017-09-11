@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "outDir": "build/",
+    "target": "ES6",
+    "watch": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true
+  },
+  "include": [
+    "./.michaelSoft/**/*.ts",
+    "src/**/*.ts",
+    "src/*.ts",
+    "test/*.ts",
+    "test/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+    ]
+}
+
